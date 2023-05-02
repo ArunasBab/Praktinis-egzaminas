@@ -1,0 +1,19 @@
+nav {
+    max-width: 1400px;
+    height: 72px;
+    background: $black;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 230px;
+    padding: 10px;
+  }
+  
+  #nav {
+    color: $white;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    font-size: 14px;
+    opacity: 69%;
+  }

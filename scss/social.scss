@@ -1,0 +1,31 @@
+.social {
+    max-width: 1400px;
+    height: 105px;
+    color: $white;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .social h5 {
+    color: $black1;
+    font-size: 20px;
+  }
+  
+  .social p {
+    width: 394px;
+    height: 38px;
+    font-size: 14px;
+    color: #86878B;
+  }
+  
+  .social i {
+    color: $orange;
+  }
+  
+  .social a {
+    cursor: pointer;
+  }
+  
