@@ -1,0 +1,63 @@
+article {
+    max-width: 1400px;
+    height: 600px;
+    margin: auto;
+    background: $black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo3 img {
+    width: 100%;
+    max-width: 390px;
+    height: 170px;
+}
+
+.erat h3 {
+    color: $white;
+    font-size: 30px;
+    width: 100%;
+    width: 320px;
+    height: 80px;
+}
+
+.erat p {
+    width: 100%;
+    width: 450px;
+    height: 60px;
+    color: $white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.title {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.eye {
+    display: grid;
+    grid-template-columns: 70px 400px;
+    grid-template-rows: 20px 60px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.eye i {
+    grid-row: span 2;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: $orange;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+}
+
+.eye p {
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
