@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+@import 'body';
 @import 'color';
 @import 'nav';
 @import 'reset';
@@ -7,116 +9,87 @@
 @import 'tabs';
 @import 'erat';
 @import 'awesome';
+@import 'prising';
 
-aside {
-    width: 100%;
+.saying {
     max-width: 1400px;
-    height: 880px;
+    height: 590px;
     margin: auto;
-    background: $blue;
 }
 
-aside h6 {
+.saying h1 {
+    text-transform: uppercase;
     font-size: 36px;
     font-weight: normal;
-    color: $white;
-    text-transform: uppercase;
     text-align: center;
-    margin: auto;
-    padding-top: 97px;
 }
 
-aside img {
-    width: 100%;
+.paddingBox {
     width: 64px;
-    height: 2px;
+    height: 10px;
     margin: auto;
+    border-bottom: 2px solid $blue;
+    margin-top: 31px;
+}
+
+.bendras {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.people {
+    width: 276px;
+    height: 240px;
+}
+
+.chat {
+    position: relative;
+    width: 276px;
+    max-height: 150px;
+    background: $blue;
+    border-radius: 8px;
+
+}
+
+.chat::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: $blue;
+    top: 90%;
+    left: 10%;
+    transform: rotateZ(45deg);
+}
+
+.chat p {
+   color: $white; 
+   padding: 20px;
+   letter-spacing: 0.5px;
+   line-height: 130%;
+}
+
+.avatar {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 40px 30px;
+    margin-top: 19px;  
+}
+
+.avatar img {
+    grid-row: span 2;
+}
+
+.avatar h3 {
     display: flex;
     align-items: center;
-    margin-top: 21px;
-}
-
-aside p {
-    font-size: 14px;
-    color: $white;
-    text-align: center;
-    margin-top: 26px;
-}
-
-.tablet {
-    // height: 880px;
-    display: flex;
-    justify-content: center;
-    // align-items: flex-start;
-    gap: 40px;
-    padding-top: 30px;
-}
-
-.price {
-    width: 343px;
-    height: 600px;
-}
-
-.basic {
-    height: 220px;
-    background: $black1;
-    border-radius: 5px 5px 0px 0px;
-}
-
-.basic h2 {
+    color: $black1;
+    font-weight: normal;
     font-size: 20px;
-    color: $white;
-    text-align: center;
-    font-weight: normal;
-    padding-top: 14px;
 }
 
-.basic h3 {
-    font-size: 34px;
-    color: $white;
-    text-align: center;
-    font-weight: normal;
-    margin-top: 14px;
-}
-
-.basic span {
-    font-size: 94px;
-}
-
-.basic p {
-    font-size: 14px;
-    opacity: 0.5;
-}
-
-.green {
-    height: 6px;
-    background: $green;
-}
-
-.green1 {
-    height: 40px;
-    background: $green;
-    color: $white;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-ul {
-    text-transform: uppercase;
-    list-style: none;
-    text-align: center;
-    background: $white;
-    border-radius: 0px 0px 5px 5px;
-    // padding: 11px;
+.avatar p {
     color: $grey;
-    
-}
-
-li {
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 14px;
 }
