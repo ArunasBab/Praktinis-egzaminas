@@ -8,4 +8,115 @@
 @import 'erat';
 @import 'awesome';
 
+aside {
+    width: 100%;
+    max-width: 1400px;
+    height: 880px;
+    margin: auto;
+    background: $blue;
+}
 
+aside h6 {
+    font-size: 36px;
+    font-weight: normal;
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    padding-top: 97px;
+}
+
+aside img {
+    width: 100%;
+    width: 64px;
+    height: 2px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 21px;
+}
+
+aside p {
+    font-size: 14px;
+    color: $white;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.tablet {
+    // height: 880px;
+    display: flex;
+    justify-content: center;
+    // align-items: flex-start;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.price {
+    width: 343px;
+    height: 600px;
+}
+
+.basic {
+    height: 220px;
+    background: $black1;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.basic h2 {
+    font-size: 20px;
+    color: $white;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 14px;
+}
+
+.basic h3 {
+    font-size: 34px;
+    color: $white;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 14px;
+}
+
+.basic span {
+    font-size: 94px;
+}
+
+.basic p {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.green {
+    height: 6px;
+    background: $green;
+}
+
+.green1 {
+    height: 40px;
+    background: $green;
+    color: $white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    text-transform: uppercase;
+    list-style: none;
+    text-align: center;
+    background: $white;
+    border-radius: 0px 0px 5px 5px;
+    // padding: 11px;
+    color: $grey;
+    
+}
+
+li {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
