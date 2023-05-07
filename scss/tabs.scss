@@ -23,6 +23,7 @@
 }
 
 .items1 {
+    cursor: url(../images/img2.png), pointer;
     height: 100px;
     background: $orange1;
     display: flex;
@@ -58,6 +59,7 @@
 }
 
 .items31 {
+    cursor: url(../images/img2.png), pointer;
     background: url(../images/img7.png);
     background-size: cover;
     width: 168px;

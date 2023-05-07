@@ -24,9 +24,13 @@
   .social i {
     color: $orange;
     opacity: 0.7;
+
+    &:hover {
+      opacity: 1;
+    }
   }
   
   .social a {
-    cursor: pointer;
+    cursor: url(../images/img2.png), pointer !important;
   }
   

@@ -1,5 +1,4 @@
 nav {
-    cursor: url(../images/img2.png);
     max-width: 1400px;
     height: 72px;
     background: $black;
@@ -11,6 +10,7 @@ nav {
   }
   
   #nav {
+    cursor: url(../images/img2.png), pointer;
     color: $white;
     display: flex;
     align-items: center;

@@ -37,13 +37,14 @@
     padding-top: 33px;
   }
 
-  form .get {
+  .get1 {
     display: flex;
     justify-content: center;
     padding: 40px;
   }
 
   form button {
+    cursor: url(../images/img2.png), pointer;
     width: 158px;
     height: 48px;
     border-radius: 5px;
@@ -55,4 +56,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &:hover {
+        background: $white;
+        color: $green;
+        border: 2px solid $green;
+    }
   }

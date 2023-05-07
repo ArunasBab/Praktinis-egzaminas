@@ -19,14 +19,15 @@ footer {
 }
 
 .social1 i {
+    cursor: url(../images/img2.png), pointer;
     color: $orange;
     opacity: 0.7;
+
+    &:hover {
+    opacity: 1;
+    }
   }
   
-  .social a {
-    cursor: pointer;
-  }
-
   footer p {
     font-size: 18px;
     color: $white;

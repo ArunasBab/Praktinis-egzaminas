@@ -37,6 +37,7 @@ article {
 }
 
 .eye {
+    cursor: url(../images/img2.png), pointer;
     display: grid;
     grid-template-columns: 70px 400px;
     grid-template-rows: 20px 60px;
