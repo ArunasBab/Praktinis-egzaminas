@@ -1,0 +1,58 @@
+.contact {
+    max-width: 1400px;
+    height: 573px;
+    background: $orange;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h1 {
+    font-size: 36px;
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.contact p {
+    font-size: 14px;
+    color: $white;
+    text-align: center;
+    padding-bottom: 27px;
+}
+
+.table1 {
+    width: 390px;
+    height: 314px;
+    box-shadow: 0px 5px 6px #00000029;
+  }
+
+  .form1 {
+    width: 390px;
+    height: 314px;
+    background: $white;
+    padding-top: 33px;
+  }
+
+  form .get {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  form button {
+    width: 158px;
+    height: 48px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background: $green;
+    font-size: 15px;
+    color: $white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

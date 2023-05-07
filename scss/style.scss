@@ -7,89 +7,9 @@
 @import 'explain';
 @import 'social';
 @import 'tabs';
-@import 'erat';
+@import 'article';
 @import 'awesome';
-@import 'prising';
-
-.saying {
-    max-width: 1400px;
-    height: 590px;
-    margin: auto;
-}
-
-.saying h1 {
-    text-transform: uppercase;
-    font-size: 36px;
-    font-weight: normal;
-    text-align: center;
-}
-
-.paddingBox {
-    width: 64px;
-    height: 10px;
-    margin: auto;
-    border-bottom: 2px solid $blue;
-    margin-top: 31px;
-}
-
-.bendras {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
-}
-
-.people {
-    width: 276px;
-    height: 240px;
-}
-
-.chat {
-    position: relative;
-    width: 276px;
-    max-height: 150px;
-    background: $blue;
-    border-radius: 8px;
-
-}
-
-.chat::before {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: $blue;
-    top: 90%;
-    left: 10%;
-    transform: rotateZ(45deg);
-}
-
-.chat p {
-   color: $white; 
-   padding: 20px;
-   letter-spacing: 0.5px;
-   line-height: 130%;
-}
-
-.avatar {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: 40px 30px;
-    margin-top: 19px;  
-}
-
-.avatar img {
-    grid-row: span 2;
-}
-
-.avatar h3 {
-    display: flex;
-    align-items: center;
-    color: $black1;
-    font-weight: normal;
-    font-size: 20px;
-}
-
-.avatar p {
-    color: $grey;
-    font-size: 14px;
-}
+@import 'aside';
+@import 'saying';
+@import 'contact';
+@import 'footer';
