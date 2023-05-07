@@ -20,6 +20,11 @@
     font-size: 14px;
     color: #86878B;
   }
+
+  .sociali {
+    display: flex;
+    gap: 110px;
+  }
   
   .social i {
     color: $orange;
@@ -32,5 +37,17 @@
   
   .social a {
     cursor: url(../images/img2.png), pointer !important;
+  }
+
+  @media (max-width: 1000px) {
+    .social {
+      height: 140px;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .sociali {
+      gap: 60px;
+    }
   }
   

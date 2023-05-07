@@ -145,3 +145,25 @@
       border: 2px solid $green;
     }
   }
+
+  @media (max-width: 830px) {
+    .explain {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px;
+    }
+  
+    .exp {
+      gap: 40px;
+    }
+
+    .download,
+    .exp h1,
+    .exp .img2,
+    .exp p {
+      display: none;
+    }
+  }

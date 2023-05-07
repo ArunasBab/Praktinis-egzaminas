@@ -33,3 +33,14 @@ footer {
     color: $white;
     opacity: 0.5;
   }
+
+  @media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .social1 {
+            gap: 70px
+        }
+    }
+  }

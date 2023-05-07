@@ -1,3 +1,10 @@
+
 body {
-    // cursor: url(../app/images/img2.png), pointer;
+
+}
+
+@media (max-width: 1150px) {
+    body {
+        transition: 1s;
+    }
 }

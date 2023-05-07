@@ -81,3 +81,23 @@
     color: $grey;
     font-size: 14px;
 }
+
+@media (max-width: 900px) {
+     .bendras {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .saying {
+        min-height: 920px;
+
+        h1 {
+            padding-top: 30px;
+        }
+    }
+
+    .paddingBox {
+        margin-top: 10px;
+    }
+}

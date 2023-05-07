@@ -63,3 +63,27 @@
     font-weight: normal;
     color: #333333;
 }
+
+@media (max-width: 1050px) {
+    .award {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        gap: 20px;
+        margin-top: 25px;
+    }
+
+    .awesome {
+        height: 710px;
+
+        h1 {
+            padding-top: 30px;
+        }
+    }
+
+    .design i {
+        margin-bottom: 10px;
+    }
+
+    
+}
