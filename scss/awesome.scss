@@ -56,6 +56,24 @@
     align-items: center;
     color: $orange;
     margin-bottom: 35px;
+    animation: move 0.1s infinite alternate linear;
+
+    &:hover {
+        animation-play-state: paused;
+      cursor: url(../images/img2.png), pointer;
+    }
+}
+
+@keyframes move {
+    from {
+        transform: translatex(0px);
+        // transform: translatex(0px);
+
+    }
+    to {
+        // transform: translateY(50px);
+        transform: translatex(2px);
+    }
 }
 
 .design h5 {

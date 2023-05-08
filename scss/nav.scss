@@ -9,6 +9,7 @@ nav {
     align-items: center;
     z-index: 2;
     gap: 180px;
+    transition: 0.3s;
 
     .links a {
       cursor: url(../images/img2.png), pointer;
@@ -16,7 +17,7 @@ nav {
       margin: 0 20px;
       font-size: 14px;
       opacity: 69%;
-      // transition: 0.1s;
+      transition: 0.3s;
 
       &:hover {
         opacity: 100%;
@@ -34,7 +35,7 @@ nav {
     display: none;
   }
 
-  // JS klas4s
+  // JS klasės
   nav .links a.active {
     color: $black;
     background: $orange;
@@ -76,7 +77,6 @@ nav {
       justify-content: center;
       align-items: center;
       padding-right: 120px;
-      // margin: auto;
       position: absolute;
       left: 0;
       right: 0;

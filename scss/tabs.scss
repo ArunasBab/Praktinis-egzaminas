@@ -30,6 +30,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+
+    &:hover {
+        background: $orange;
+    }
+}
+
+.text1:hover {
+    transform: rotateZ(-45deg);
 }
 
 .antras {
@@ -70,6 +79,11 @@
     align-items: center;
     font-size: 20px;
     color: $white;
+}
+
+.text31:hover {
+    transform: rotateZ(45deg);
+    font-size: 25px;
 }
 
 .items32 img {

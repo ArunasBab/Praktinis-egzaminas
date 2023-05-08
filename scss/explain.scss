@@ -20,7 +20,25 @@
   .explain .img1 {
     width: 246px;
     height: 107px;
+    animation: move 1s infinite alternate linear;
+
+    &:hover {
+      animation-play-state: paused;
+      cursor: url(../images/img2.png), pointer;
+    }
   }
+
+  @keyframes move {
+    from {
+        transform: translatex(0px);
+        // transform: translatex(0px);
+
+    }
+    to {
+        // transform: translateY(50px);
+        transform: translatex(5px);
+    }
+}
 
   .explain .img2 {
     width: 84px;
@@ -146,6 +164,9 @@
       border: 2px solid $green;
     }
   }
+
+  
+
 
   @media (max-width: 850px) {
     .explain {

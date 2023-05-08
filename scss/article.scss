@@ -12,6 +12,24 @@ article {
     width: 100%;
     max-width: 390px;
     height: 170px;
+    animation: move 1s infinite alternate linear;
+
+    &:hover {
+        animation-play-state: paused;
+      cursor: url(../images/img2.png), pointer;
+    }
+}
+
+@keyframes move {
+    from {
+        transform: translatex(0px);
+        // transform: translatex(0px);
+
+    }
+    to {
+        // transform: translateY(50px);
+        transform: translatex(5px);
+    }
 }
 
 .erat h3 {
@@ -42,7 +60,7 @@ article {
     grid-template-columns: 70px 400px;
     grid-template-rows: 20px 60px;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 10px; 
 }
 
 .eye i {
@@ -55,6 +73,13 @@ article {
     align-items: center;
     justify-content: center;
     color: $white;
+    transition: 0.2s;
+
+    &:hover {
+        transform: translatex(-20px);
+        color: $orange;
+        background: $black;
+    }
 }
 
 .eye p {
