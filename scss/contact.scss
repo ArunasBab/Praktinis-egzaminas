@@ -63,3 +63,19 @@
         border: 2px solid $green;
     }
   }
+
+  @media (max-width: 768px) {
+    .table1 {
+      display: flex;
+      justify-content: center;
+      width: 320px;
+    }
+
+    .form1 {
+      width: 320px;
+    }
+
+    .ivesti {
+      width: 200px;
+    }
+  }

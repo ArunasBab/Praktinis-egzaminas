@@ -41,13 +41,22 @@
 
   @media (max-width: 1000px) {
     .social {
-      height: 140px;
+      height: 150px;
       flex-direction: column;
-      gap: 20px;
+      gap: 35px;
+
+      h5 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+        width: 350px;
+      }
     }
 
     .sociali {
-      gap: 60px;
+      gap: 40px;
     }
   }
   

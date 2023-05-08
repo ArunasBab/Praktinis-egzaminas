@@ -65,9 +65,44 @@ article {
 
 @media (max-width: 980px) {
     article {
+        display: flex;
         flex-direction: column;
         justify-items: center;
+        align-items: center;
         gap: 15px;
-        height: 650px;
+        height: 720px;
+    }
+
+    .logo3 img {
+        height: 130px;
+    }
+
+    .erat {
+        width: 300px;
+
+        img {
+            width: 130px;
+        }
+
+        p {
+            width: 330px;
+            margin-bottom: 45px;
+        }
+    }
+
+    .eye {
+        grid-template-columns: 64px 400px;
+        grid-template-rows: 78px 62px;
+        margin-top: -20px;
+
+        // .p1 {
+        //     display: flex;
+        //     align-items: end;
+        // }
+    }
+
+    .eye p {
+        width: 240px;
+        // padding-top: 20px;
     }
 }

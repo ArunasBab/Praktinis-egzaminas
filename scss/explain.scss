@@ -153,7 +153,8 @@
       flex-wrap: nowrap;
       justify-content: space-between;
       align-items: center;
-      padding: 30px;
+      padding: 2px;
+      padding-top: 20px;
     }
   
     .exp {
@@ -165,5 +166,25 @@
     .exp .img2,
     .exp p {
       display: none;
+    }
+
+    .table {
+      width: 320px;
+
+      h2 {
+        width: 320px;
+      }
+
+      form {
+        width: 320px;
+
+        .ivesti {
+          width: 200px;
+        }
+      }
+
+      .get {
+        width: 320px;
+      }
     }
   }
