@@ -1,36 +1,97 @@
 nav {
-    max-width: 1400px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     height: 72px;
     background: $black;
-    margin: auto;
     display: flex;
     justify-content: space-around;
-    gap: 230px;
-    padding: 10px;
-  }
-  
-  #nav {
-    cursor: url(../images/img2.png), pointer;
-    color: $white;
-    display: flex;
     align-items: center;
-    gap: 45px;
-    font-size: 14px;
-    opacity: 69%;
+    z-index: 2;
+    gap: 180px;
+
+    .links a {
+      cursor: url(../images/img2.png), pointer;
+      color: $white;
+      margin: 0 20px;
+      font-size: 14px;
+      opacity: 69%;
+      // transition: 0.1s;
+
+      &:hover {
+        opacity: 100%;
+        padding-bottom: 22px;
+        border-bottom: 3px solid $orange;
+      }
+    }
+
+    img {
+      cursor: url(../images/img2.png), pointer;
+    }
   }
 
-  @media (max-width: 830px) {
+  #burger {
+    display: none;
+  }
+
+  // JS klas4s
+  nav .links a.active {
+    color: $black;
+    background: $orange;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  @media (max-width: 850px) {
+    #burger {
+      cursor: url(../images/img2.png), pointer;
+      display: block;
+      color: $white;
+      opacity: 69%;
+
+      &:hover {
+        opacity: 100%;
+      }
+    }
+
     nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding-right: 80px;
+      gap: 5px;
+      
+
+      .links {
+        display: none;
+        transition: 0.3s;
+      }
+    }
+
+    // nav - animacija
+
+    nav .links.absolute {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 0;
-      flex-direction: column;
-      height: 100px;
-    }
-
-    #nav {
-      display: flex;
-      gap: 15px;
+      padding-right: 120px;
+      // margin: auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 30px;
+      top: 71px;
+      background: $black;
+      transition: 0.3s;
+      
+      &:hover {
+        opacity: 100%;
+        padding-bottom: 13px;
+      }
+  
+      a {
+        margin: 0 5px;
+      }
     }
   }
