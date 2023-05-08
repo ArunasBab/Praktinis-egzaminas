@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Praktinis egzaminas</title>;
+  <!-- Swiper css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <!-- custom css -->
   <link rel="stylesheet" href="app/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -185,7 +188,13 @@
   <section class="saying">
     <H1>what our customers are saying</H1>
     <div class="paddingBox"></div>
-    <div class="bendras">
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
       <div class="people">
         <div class="chat">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellat maxime rem? Voluptatibus quod vero nesciunt.</p>
@@ -196,7 +205,8 @@
           <p>Manager</p>
         </div>
       </div>
-  
+    </div>
+    <div class="swiper-slide">
       <div class="people">
         <div class="chat">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, minus ducimus.</p>
@@ -207,18 +217,40 @@
           <p>Freelancer</p>
         </div>
       </div>
-  
-        <div class="people">
-          <div class="chat">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellat maxime rem? Voluptatibus quod vero nesciunt.</p>
-          </div>
-          <div class="avatar">
-            <img src="app/images/avatar.png" alt="avatar">
-            <h3>Susan W.</h3>
-            <p>Photographer</p>
-          </div>
-        </div>
     </div>
+    <div class="swiper-slide">
+      <div class="people">
+        <div class="chat">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis nam impedit doloribus.</p>
+        </div>
+        <div class="avatar">
+          <img src="app/images/avatar.png" alt="avatar">
+          <h3>Lukas B.</h3>
+          <p>Engineer</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="people">
+        <div class="chat">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellat maxime rem? Voluptatibus quod vero nesciunt.</p>
+        </div>
+        <div class="avatar">
+          <img src="app/images/avatar.png" alt="avatar">
+          <h3>Susan W.</h3>
+          <p>Photographer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+<!-- swiper js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- custum js -->
+<script src="swiper.js"></script>
   </section>
   <section class="contact">
     <h1>contact us</h1>

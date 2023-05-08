@@ -1,3 +1,8 @@
+// swiper css
+.swiper {
+    width: 320px;
+  }
+
 .saying {
     max-width: 1400px;
     height: 590px;
@@ -20,15 +25,27 @@
     margin-top: 31px;
 }
 
-.bendras {
+.swiper-wrapper {
+    padding-top: 40px;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
+    align-items: center;
+}
+
+.swiper-pagination {
+    position: relative;
+    top: -20px;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: $orange;
 }
 
 .people {
     width: 276px;
     height: 240px;
+    margin: auto;
 }
 
 .chat {
@@ -82,22 +99,9 @@
     font-size: 14px;
 }
 
-@media (max-width: 900px) {
-     .bendras {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 30px;
-    }
-
-    .saying {
-        min-height: 950px;
-
-        h1 {
-            padding-top: 30px;
-        }
-    }
-
-    .paddingBox {
-        margin-top: 10px;
-    }
+@media (min-width: 900px) {
+    .swiper {
+        width: 100%;
+        max-width: 1300px;
+    }   
 }
